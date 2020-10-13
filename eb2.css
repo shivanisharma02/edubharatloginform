@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
   font-family: 'Poppins', sans-serif;
 }
 html,body{
@@ -18,16 +18,20 @@ html,body{
 }
 .wrapper{
   overflow: hidden;
-  max-width: 390px;
+  width: 500px;
+  margin-left: 100px;
   background: #fff;
+  
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 30px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
 .wrapper .title-text{
   display: flex;
   width: 200%;
 }
+
+
 .wrapper .title{
   width: 50%;
   font-size: 35px;
@@ -71,9 +75,7 @@ html,body{
   background: -webkit-linear-gradient(left, #a445b2, #845BB3);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
-input[type="radio"]{
-  display: none;
-}
+
 #signup:checked ~ .slider-tab{
   left: 50%;
 }
@@ -109,6 +111,8 @@ input[type="radio"]{
   width: 100%;
   margin-top: 20px;
 }
+
+
 .form-inner form .field input{
   height: 100%;
   width: 100%;
