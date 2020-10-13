@@ -13,36 +13,59 @@
           
 	<form action="#" method ="post" class="signup">
             
- <div class="field">
-              <input type="text" placeholder="First Name" id=" firstName" name="firstName" required>
-            </div>
- <div class="field">
-              <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Age" id="age" name="age" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Gender (M/F/O)" id="gender" name="gender" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Qualifications" id="qual" name="qual" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Phone Number" id="phno" name="phno" required>
-            </div>
-            <div class="field">
-              <input type="text" placeholder="Courses You are Interested In Taking" id="Teachcourse" name="Teachcourse" required>
-            </div>
-             <div class="field">
-              <input type="text" placeholder="Past Teaching Experience (if any)" id="Teachexp" name="Teachexp" required>
-            </div>
-            <div class="field">
-              <input type="text" placeholder="Email Address" id="emailadd" name="emailadd" required>
-            </div>
-<div class="field">
-              <input type="password" placeholder="Password"  id="pass"name="pass" required>
-            </div>
+              <label for="firstName">First Name</label><br>
+              <input type="text" placeholder="First Name" id=" firstName" name="firstName"size="70" required><br><br>
+        
+            <label for="lastName">Last Name</label><br>
+              <input type="text" placeholder="Last Name" id="lastName" name="lastName" size="70" required><br><br>
+            
+  
+              <label for="age">Age</label><br>
+              <input type="text" placeholder="Age" id="age" name="age" size="70" required><br><br>
+               
+            
+               <p>Gender: </p>
+              <input type="radio" id="male" name="gen" required>
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gen" required>
+              <label for="female">Female</label>
+              <input type="radio" id="others" name="gen" required>
+              <label for="others">Others</label><br><br>
+              
+
+              <label for="qual">Qualifications</label><br>
+              <input type="text" placeholder="Qualifications" id="qual" name="qual" size="70" required><br><br>
+            
+
+              <label for="phno">Phone Number</label><br>
+             <input type="text" placeholder="Phone Number" id="phno" name="phno" size="70" required><br><br>
+    
+               <label for="course">Courses You are Interested In Taking</label><br>
+              <select name="course" id="courses">
+              <option value="physics">Physics</option>
+             <option value="chemistry">Chemistry</option>
+             <option value="maths">Maths</option>
+             
+             </select><br><br>
+            
+
+     
+    
+              <label for="teachexp">Past Teaching Experience (if any)</label><br>
+              <select name="course" id="courses">
+              <option value="yes">Yes</option>
+             <option value="no">No</option>
+             
+             </select><br><br>
+            
+
+              <label for="emailadd">Email Address</label><br>
+              <input type="text" placeholder="Email Address" id="emailadd" name="emailadd" size="70" required><br><br>
+    
+
+              <label for="pass">Password</label><br>
+              <input type="password" placeholder="Password"  id="pass"name="pass" size="70" required>
+    
 
 <div class="field btn">
               <div class="btn-layer">
