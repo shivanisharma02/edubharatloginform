@@ -12,37 +12,48 @@
 	 	<div class="form-inner">
           
 	<form action="#" method ="post" class="signup">
-            
- <div class="field">
-              <input type="text" placeholder="First Name" id=" firstName" name="firstName" required>
-            </div>
- <div class="field">
-              <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Age" id="age" name="age" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Gender M/F/O" id="gen" name="gen" required>
-            </div>
+              
+              <label for="firstName">First Name</label><br>
+              <input type="text" placeholder="First Name" id=" firstName" name="firstName" size="70" required><br><br>
+          
+              <label for="lastName">Last Name</label><br>
+              <input type="text" placeholder="Last Name" id="lastName" name="lastName" size="70" required><br><br>
+       
+              <label for="age">Age</label><br>
+              <input type="text" placeholder="Age" id="age" name="age" size="70" required><br><br>
+              
+              <p>Gender: </p>
+              <input type="radio" id="male" name="gen" required>
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gen" required>
+              <label for="female">Female</label>
+              <input type="radio" id="others" name="gen" required>
+              <label for="others">Others</label><br><br>
+              
             
 
               
-<div class="field">
-              <input type="text" placeholder="Class" id="class" name="class" required>
-            </div>
-<div class="field">
-              <input type="text" placeholder="Phone Number" id="phno" name="phno" required>
-            </div>
-            <div class="field">
-              <input type="text" placeholder="Courses You are Interested In" id="course" name="course" required>
-            </div>
-            <div class="field">
-              <input type="text" placeholder="Email Address" id="emailadd" name="emailadd" required>
-            </div>
-<div class="field">
-              <input type="password" placeholder="Password"  id="pass"name="pass" required>
-            </div>
+               <label for="class">Class</label><br>
+              <input type="text" placeholder="Class" id="class" name="class" size="70" required><br><br>
+           
+              <label for="phno">Phone Number</label><br>
+              <input type="text" placeholder="Phone Number" id="phno" name="phno" size="70" required><br><br>
+          
+              <label for="course">Courses You are Interested In</label><br>
+              <select name="course" id="courses">
+                 <option value="physics">Physics</option>
+                  <option value="chemistry">Chemistry</option>
+                  <option value="maths">Maths</option>
+             
+             </select><br><br>
+           
+              <label for="emailadd">Email Address</label><br>
+              <input type="text" placeholder="Email Address" id="emailadd" name="emailadd" size="70" required><br><br>
+        
+            
+              <label for="pass">Password</label><br>
+              <input type="password" placeholder="Password"  id="pass"name="pass" size="70" required>
+
 
 <div class="field btn">
               <div class="btn-layer">
